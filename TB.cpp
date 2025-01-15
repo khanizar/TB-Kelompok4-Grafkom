@@ -161,7 +161,7 @@ void myinit(void){
         void keyboard(unsigned char key, int x, int y) {
     switch (key) {
         case 'a': // Tombol 'a' untuk membuka pintu ke depan
-            BukaPintu += 1.0;
+            BukaPintu -= 1.0;
            
             glutPostRedisplay();
             break;
